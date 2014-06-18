@@ -1,0 +1,3 @@
+[submodule "yatt_lite"]
+	path = yatt_lite
+	url = ../yatt_lite.git
