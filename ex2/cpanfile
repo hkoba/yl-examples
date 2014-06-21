@@ -1,0 +1,6 @@
+# -*- mode: perl; coding: utf-8 -*-
+
+requires 'YATT::Lite' => 0;
+requires 'Plack' => 0;
+requires 'Plack::Middleware::Session::Simple' => 0;
+requires 'Plack::Session::Store::File' => 0;
