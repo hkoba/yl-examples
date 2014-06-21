@@ -50,7 +50,7 @@ package Compat::GetSet2FetchStore {
   sub MY () {__PACKAGE__}
   use fields qw/store/;
   sub new {
-    my MY $self = fields::new(shift);
+    my MY $self = bless {}, shift; # or fields::new(shift)
     $self->{store} = shift;
     $self;
   }
